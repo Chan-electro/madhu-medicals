@@ -6,28 +6,28 @@ const StoreLocator: React.FC = () => {
   const [selectedBranch, setSelectedBranch] = useState(BRANCHES[0]);
 
   return (
-    <div className="min-h-screen bg-[#f0fdfa] py-24 px-4">
+    <div className="min-h-screen bg-[#f0fdfa] py-12 md:py-24 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-10 md:mb-20">
           <span className="text-[#4ecdc4] font-black uppercase tracking-widest text-xs mb-4 inline-block">Two Strategic Branches</span>
-          <h1 className="text-4xl md:text-6xl font-display font-bold text-[#004d5e] mb-6">Find Madhu Medicals</h1>
-          <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">Visit us in Nelamangala or Bagalagunte for genuine care and emergency medical support.</p>
+          <h1 className="text-3xl md:text-6xl font-display font-bold text-[#004d5e] mb-4 md:mb-6">Find Madhu Medicals</h1>
+          <p className="text-slate-600 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">Visit us in Nelamangala or Bagalagunte for genuine care and emergency medical support.</p>
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-12 items-start">
+        <div className="grid lg:grid-cols-12 gap-6 md:gap-12 items-start">
           <div className="lg:col-span-5 space-y-6">
             {BRANCHES.map((branch) => (
               <button
                 key={branch.id}
                 onClick={() => setSelectedBranch(branch)}
-                className={`w-full text-left p-8 rounded-[2.5rem] transition-all duration-500 border-2 ${selectedBranch.id === branch.id ? 'bg-white border-[#004d5e] shadow-2xl shadow-teal-900/10' : 'bg-white/50 border-transparent hover:border-teal-200'}`}
+                className={`w-full text-left p-5 md:p-8 rounded-2xl md:rounded-[2.5rem] transition-all duration-500 border-2 ${selectedBranch.id === branch.id ? 'bg-white border-[#004d5e] shadow-2xl shadow-teal-900/10' : 'bg-white/50 border-transparent hover:border-teal-200'}`}
               >
                 <div className="flex items-center gap-6">
-                  <div className={`w-16 h-16 rounded-2xl flex items-center justify-center transition-colors ${selectedBranch.id === branch.id ? 'bg-[#004d5e] text-[#4ecdc4]' : 'bg-teal-50 text-teal-600'}`}>
-                    <span className="material-icons-outlined text-3xl">storefront</span>
+                  <div className={`w-12 md:w-16 h-12 md:h-16 rounded-xl md:rounded-2xl flex items-center justify-center transition-colors ${selectedBranch.id === branch.id ? 'bg-[#004d5e] text-[#4ecdc4]' : 'bg-teal-50 text-teal-600'}`}>
+                    <span className="material-icons-outlined text-2xl md:text-3xl">storefront</span>
                   </div>
                   <div>
-                    <h3 className={`text-xl font-bold mb-1 ${selectedBranch.id === branch.id ? 'text-[#004d5e]' : 'text-slate-900'}`}>{branch.name}</h3>
+                    <h3 className={`text-lg md:text-xl font-bold mb-1 ${selectedBranch.id === branch.id ? 'text-[#004d5e]' : 'text-slate-900'}`}>{branch.name}</h3>
                     <p className="text-sm text-slate-500 font-medium">{branch.address}</p>
                   </div>
                 </div>

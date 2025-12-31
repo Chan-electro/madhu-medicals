@@ -62,10 +62,10 @@ export const SERVICES: Service[] = [
   },
   {
     id: 's2',
-    title: 'OTC Essentials',
-    description: 'Wide range of daily health essentials and wellness products.',
-    link: '#/products',
-    icon: 'medication',
+    title: 'Download Our App',
+    description: 'Get our mobile app for easy ordering and exclusive offers.',
+    link: '#/download-app',
+    icon: 'smartphone',
   },
   {
     id: 's3',
@@ -76,10 +76,10 @@ export const SERVICES: Service[] = [
   },
   {
     id: 's4',
-    title: 'AI Health Chat',
-    description: 'Ask our smart assistant for wellness tips and medication info.',
-    link: '#/health-assistant',
-    icon: 'smart_toy',
+    title: 'Find Our Stores',
+    description: 'Visit our branches in Nelamangala and Bagalagunte.',
+    link: '#/store-locator',
+    icon: 'storefront',
   },
 ];
 

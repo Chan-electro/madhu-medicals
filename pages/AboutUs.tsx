@@ -27,7 +27,7 @@ const AboutUs: React.FC = () => {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-[#004d5e] via-[#006d7e] to-[#004d5e] text-white py-24 overflow-hidden">
+            <section className="relative bg-gradient-to-br from-[#004d5e] via-[#006d7e] to-[#004d5e] text-white py-16 md:py-24 overflow-hidden">
                 <div className="absolute inset-0 opacity-10">
                     <div className="absolute top-20 left-20 w-72 h-72 bg-[#4ecdc4] rounded-full blur-3xl"></div>
                     <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#4ecdc4] rounded-full blur-3xl"></div>
@@ -37,10 +37,10 @@ const AboutUs: React.FC = () => {
                         <span className="inline-block px-6 py-2 bg-[#4ecdc4]/20 rounded-full text-[#4ecdc4] text-sm font-bold uppercase tracking-widest mb-6">
                             Our Story
                         </span>
-                        <h1 className="font-display text-4xl md:text-6xl font-bold mb-6">
+                        <h1 className="font-display text-3xl md:text-6xl font-bold mb-4 md:mb-6">
                             About <span className="text-[#4ecdc4]">Madhu Medicals</span>
                         </h1>
-                        <p className="text-xl text-teal-100/80 max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-base md:text-xl text-teal-100/80 max-w-3xl mx-auto leading-relaxed">
                             For nearly four decades, we've been your trusted neighborhood pharmacy,
                             providing genuine medicines and heartfelt care to families across Bangalore.
                         </p>
@@ -49,9 +49,9 @@ const AboutUs: React.FC = () => {
             </section>
 
             {/* Our Story Section */}
-            <section className="py-20 bg-white">
+            <section className="py-12 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+                    <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-center">
                         <div>
                             <span className="text-[#4ecdc4] font-bold uppercase tracking-widest text-sm">Since 1986</span>
                             <h2 className="font-display text-3xl md:text-4xl font-bold text-[#004d5e] mt-4 mb-6">
@@ -81,21 +81,21 @@ const AboutUs: React.FC = () => {
                                 <div className="flex justify-center mb-8">
                                     <Logo className="h-32" />
                                 </div>
-                                <div className="grid grid-cols-2 gap-6 text-center">
+                                <div className="grid grid-cols-2 gap-3 md:gap-6 text-center">
                                     <div className="bg-white rounded-2xl p-6 shadow-lg">
-                                        <span className="text-4xl font-display font-bold text-[#004d5e]">38+</span>
+                                        <span className="text-2xl md:text-4xl font-display font-bold text-[#004d5e]">38+</span>
                                         <p className="text-slate-600 text-sm mt-2">Years of Service</p>
                                     </div>
                                     <div className="bg-white rounded-2xl p-6 shadow-lg">
-                                        <span className="text-4xl font-display font-bold text-[#004d5e]">50K+</span>
+                                        <span className="text-2xl md:text-4xl font-display font-bold text-[#004d5e]">50K+</span>
                                         <p className="text-slate-600 text-sm mt-2">Happy Families</p>
                                     </div>
                                     <div className="bg-white rounded-2xl p-6 shadow-lg">
-                                        <span className="text-4xl font-display font-bold text-[#004d5e]">2</span>
+                                        <span className="text-2xl md:text-4xl font-display font-bold text-[#004d5e]">2</span>
                                         <p className="text-slate-600 text-sm mt-2">Store Locations</p>
                                     </div>
                                     <div className="bg-white rounded-2xl p-6 shadow-lg">
-                                        <span className="text-4xl font-display font-bold text-[#004d5e]">10K+</span>
+                                        <span className="text-2xl md:text-4xl font-display font-bold text-[#004d5e]">10K+</span>
                                         <p className="text-slate-600 text-sm mt-2">Products Available</p>
                                     </div>
                                 </div>

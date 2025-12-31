@@ -6,7 +6,7 @@ const DownloadApp: React.FC = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-[#f0fdfa] via-white to-[#f0fdfa]">
             {/* Hero Section */}
-            <section className="relative py-24 overflow-hidden">
+            <section className="relative py-12 md:py-24 overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
                     <div className="absolute top-20 left-1/4 w-96 h-96 bg-[#4ecdc4] rounded-full blur-3xl"></div>
                     <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-[#004d5e] rounded-full blur-3xl"></div>
@@ -19,12 +19,12 @@ const DownloadApp: React.FC = () => {
                             <span className="inline-block px-6 py-2 bg-[#004d5e]/10 rounded-full text-[#004d5e] text-sm font-bold uppercase tracking-widest mb-6">
                                 Now Available
                             </span>
-                            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-[#004d5e] mb-6 leading-tight">
+                            <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-[#004d5e] mb-4 md:mb-6 leading-tight">
                                 Download the <span className="text-[#4ecdc4]">Madhu Medicals</span> App
                             </h1>
-                            <p className="text-lg text-slate-600 mb-10 leading-relaxed max-w-lg mx-auto lg:mx-0">
+                            <p className="text-base md:text-lg text-slate-600 mb-6 md:mb-10 leading-relaxed max-w-lg mx-auto lg:mx-0">
                                 Get your medicines delivered to your doorstep with just a few taps.
-                                Order prescriptions, track deliveries, and access exclusive offers - all from your phone.
+                                Order prescriptions, track deliveries, and access exclusive offers.
                             </p>
 
                             {/* Download Buttons */}
@@ -33,7 +33,7 @@ const DownloadApp: React.FC = () => {
                                     href="https://play.google.com/store/apps/details?id=com.patient.madhumedical"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="group flex items-center gap-4 bg-black text-white px-8 py-4 rounded-2xl hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
+                                    className="group flex items-center justify-center gap-3 md:gap-4 bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
                                 >
                                     <svg viewBox="0 0 24 24" className="w-10 h-10 fill-current">
                                         <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
@@ -48,7 +48,7 @@ const DownloadApp: React.FC = () => {
                                     href="https://apps.apple.com/in/app/madhu-medicals/id6502280927"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="group flex items-center gap-4 bg-black text-white px-8 py-4 rounded-2xl hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
+                                    className="group flex items-center justify-center gap-3 md:gap-4 bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
                                 >
                                     <svg viewBox="0 0 24 24" className="w-10 h-10 fill-current">
                                         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
@@ -61,7 +61,7 @@ const DownloadApp: React.FC = () => {
                             </div>
 
                             {/* Stats */}
-                            <div className="flex gap-8 mt-12 justify-center lg:justify-start">
+                            <div className="flex gap-6 md:gap-8 mt-8 md:mt-12 justify-center lg:justify-start">
                                 <div className="text-center">
                                     <span className="block text-3xl font-display font-bold text-[#004d5e]">10K+</span>
                                     <span className="text-sm text-slate-500">Downloads</span>
@@ -78,7 +78,7 @@ const DownloadApp: React.FC = () => {
                         </div>
 
                         {/* Right - Phone Mockup */}
-                        <div className="relative flex justify-center lg:justify-end">
+                        <div className="relative flex justify-center lg:justify-end hidden lg:flex">
                             <div className="relative">
                                 {/* Phone Frame */}
                                 <div className="w-72 h-[580px] bg-gradient-to-b from-slate-900 to-slate-800 rounded-[3rem] p-3 shadow-2xl">

@@ -39,8 +39,8 @@ const Home: React.FC = () => {
                     </div>
                   ))}
                 </div>
-                <a 
-                  href="https://wa.me/919535967333" 
+                <a
+                  href="https://wa.me/919535967333"
                   target="_blank"
                   className="mt-12 inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-3xl font-bold text-lg shadow-xl shadow-green-500/30 hover:scale-105 active:scale-95 transition-all"
                 >
@@ -122,23 +122,23 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* AI Assistant CTA */}
-      <section className="py-24">
-         <div className="max-w-4xl mx-auto px-4 text-center">
-            <div className="bg-[#004d5e] p-12 md:p-20 rounded-[4rem] text-white shadow-3xl shadow-teal-900/20 relative overflow-hidden">
-               <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none" style={{backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '40px 40px'}}></div>
-               <div className="relative z-10">
-                 <h3 className="text-3xl md:text-5xl font-display font-bold mb-8 leading-tight">Expert Advice, <br/>Anytime You Need.</h3>
-                 <p className="text-teal-100 text-lg mb-12 max-w-lg mx-auto opacity-80">Get instant wellness tips and supplement guidance from our AI Health Assistant, available 24/7.</p>
-                 <button 
-                   onClick={() => window.location.hash = '#/health-assistant'}
-                   className="bg-[#4ecdc4] text-[#004d5e] px-12 py-5 rounded-3xl font-black text-lg shadow-2xl hover:bg-white hover:scale-105 transition-all"
-                 >
-                   Chat with Madhu AI
-                 </button>
-               </div>
+      {/* Download App CTA */}
+      <section className="py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="bg-[#004d5e] p-10 md:p-20 rounded-[2.5rem] md:rounded-[4rem] text-white shadow-3xl shadow-teal-900/20 relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
+            <div className="relative z-10">
+              <h3 className="text-2xl md:text-5xl font-display font-bold mb-6 md:mb-8 leading-tight">Download Our App <br />for Easy Ordering</h3>
+              <p className="text-teal-100 text-base md:text-lg mb-8 md:mb-12 max-w-lg mx-auto opacity-80">Get medicines delivered to your door with just a few taps. Available on Android and iOS.</p>
+              <Link
+                to="/download-app"
+                className="bg-[#4ecdc4] text-[#004d5e] px-8 md:px-12 py-4 md:py-5 rounded-2xl md:rounded-3xl font-black text-base md:text-lg shadow-2xl hover:bg-white hover:scale-105 transition-all inline-block"
+              >
+                Get the App
+              </Link>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
     </main>
   );
