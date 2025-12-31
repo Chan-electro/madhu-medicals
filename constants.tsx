@@ -12,15 +12,19 @@ export const BRANCHES = [
     id: 'b1',
     name: 'Nelamangala Branch',
     address: 'Near Town Hall, Nelamangala, Bangalore - 562123',
+    plusCode: '3CW2+RQ Bengaluru, Karnataka',
     phone: '+91 98765 43211',
-    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m12!1m3!1d3885.123456789!2d77.39!3d13.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zTmVsYW1hbmdhbGE!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin'
+    mapUrl: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=3CW2%2BRQ+Bengaluru+Karnataka&zoom=17',
+    directionsUrl: 'https://maps.app.goo.gl/f2fxTY4sXgArxKKN6?g_st=iw'
   },
   {
     id: 'b2',
     name: 'Bagalagunte Branch',
     address: 'Main Road, Bagalagunte, Dasarahalli, Bangalore - 560073',
+    plusCode: '3G54+3Q Bengaluru, Karnataka',
     phone: '+91 98765 43212',
-    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m12!1m3!1d3886.9158!2d77.5!3d13.04!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zQmFnYWxhZ3VudGU!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin'
+    mapUrl: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=3G54%2B3Q+Bengaluru+Karnataka&zoom=17',
+    directionsUrl: 'https://maps.app.goo.gl/kxUWHT9S21Bt9MV5A?g_st=iw'
   }
 ];
 
