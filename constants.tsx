@@ -13,7 +13,7 @@ export const BRANCHES = [
     name: 'Nelamangala Branch',
     address: 'Near Town Hall, Nelamangala, Bangalore - 562123',
     plusCode: '3CW2+RQ Bengaluru, Karnataka',
-    phone: '+91 98765 43211',
+    phone: '+91 95359 67333',
     mapUrl: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=3CW2%2BRQ+Bengaluru+Karnataka&zoom=17',
     directionsUrl: 'https://maps.app.goo.gl/f2fxTY4sXgArxKKN6?g_st=iw'
   },
@@ -22,7 +22,7 @@ export const BRANCHES = [
     name: 'Bagalagunte Branch',
     address: 'Main Road, Bagalagunte, Dasarahalli, Bangalore - 560073',
     plusCode: '3G54+3Q Bengaluru, Karnataka',
-    phone: '+91 98765 43212',
+    phone: '+91 95359 67333',
     mapUrl: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=3G54%2B3Q+Bengaluru+Karnataka&zoom=17',
     directionsUrl: 'https://maps.app.goo.gl/kxUWHT9S21Bt9MV5A?g_st=iw'
   }
@@ -57,7 +57,7 @@ export const SERVICES: Service[] = [
     id: 's1',
     title: 'WhatsApp Ordering',
     description: 'Just send a photo of your list or prescription on WhatsApp to order.',
-    link: 'https://wa.me/919876543210',
+    link: 'https://wa.me/919535967333',
     icon: 'whatsapp',
   },
   {

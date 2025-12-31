@@ -40,7 +40,7 @@ const Home: React.FC = () => {
                   ))}
                 </div>
                 <a 
-                  href="https://wa.me/919876543210" 
+                  href="https://wa.me/919535967333" 
                   target="_blank"
                   className="mt-12 inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-3xl font-bold text-lg shadow-xl shadow-green-500/30 hover:scale-105 active:scale-95 transition-all"
                 >

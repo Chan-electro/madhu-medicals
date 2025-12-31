@@ -63,7 +63,7 @@ const StoreLocator: React.FC = () => {
             <div className="bg-[#004d5e] text-white p-10 rounded-[3rem] shadow-2xl">
               <h4 className="font-display text-2xl font-bold mb-4">Home Delivery?</h4>
               <p className="text-teal-100 text-sm mb-8 leading-relaxed">We deliver within 30-45 minutes in both local zones. Just WhatsApp your requirements.</p>
-              <a href="https://wa.me/919876543210" className="bg-[#25D366] text-white px-8 py-4 rounded-2xl font-bold text-sm inline-flex items-center gap-2 hover:bg-[#128C7E] transition-all">
+              <a href="https://wa.me/919535967333" className="bg-[#25D366] text-white px-8 py-4 rounded-2xl font-bold text-sm inline-flex items-center gap-2 hover:bg-[#128C7E] transition-all">
                 <span className="material-icons-outlined">chat</span>
                 WhatsApp Us Now
               </a>

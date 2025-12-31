@@ -12,7 +12,7 @@ export const getHealthAdviceStream = async (userQuery: string, onChunk: (text: s
       model: 'gemini-3-flash-preview',
       contents: userQuery,
       config: {
-        systemInstruction: "You are a helpful health assistant for Madhu Medicals, a community pharmacy with 35 years of legacy. Provide friendly, accurate, and empathetic health tips. Keep responses concise and practical. ALWAYS include a disclaimer that you are an AI and the user should consult their doctor for medical emergencies. If asked about prices or stock, tell them to call the store at +91 98765 43210.",
+        systemInstruction: "You are a helpful health assistant for Madhu Medicals, a community pharmacy with 35 years of legacy. Provide friendly, accurate, and empathetic health tips. Keep responses concise and practical. ALWAYS include a disclaimer that you are an AI and the user should consult their doctor for medical emergencies. If asked about prices or stock, tell them to call the store at +91 95359 67333.",
         temperature: 0.7,
       },
     });
@@ -24,7 +24,7 @@ export const getHealthAdviceStream = async (userQuery: string, onChunk: (text: s
     }
   } catch (error) {
     console.error("Gemini Stream Error:", error);
-    onChunk("I'm having trouble connecting to my knowledge base right now. Please call Madhu Medicals directly at +91 98765 43210.");
+    onChunk("I'm having trouble connecting to my knowledge base right now. Please call Madhu Medicals directly at +91 95359 67333.");
   }
 };
 

@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
     },
     {
       name: 'WhatsApp',
-      url: 'https://wa.me/919876543210',
+      url: 'https://wa.me/919535967333',
       icon: <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
     }
   ];
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="text-teal-50/70 text-sm font-bold flex items-center gap-2">
                 <span className="material-icons-outlined text-xs">call</span>
-                +91 98765 43211
+                +91 95359 67333
               </p>
             </div>
             <div>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="text-teal-50/70 text-sm font-bold flex items-center gap-2">
                 <span className="material-icons-outlined text-xs">call</span>
-                +91 98765 43212
+                +91 95359 67333
               </p>
             </div>
           </div>

@@ -44,7 +44,7 @@ const Header: React.FC = () => {
                 </Link>
               ))}
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919535967333"
                 target="_blank"
                 className="bg-[#25D366] text-white hover:bg-[#128C7E] px-6 py-2.5 rounded-2xl font-bold shadow-lg shadow-green-900/10 transition-all flex items-center gap-2 hover:-translate-y-0.5 active:translate-y-0"
               >
@@ -53,7 +53,7 @@ const Header: React.FC = () => {
             </div>
 
             <div className="lg:hidden flex items-center gap-4">
-              <a href="https://wa.me/919876543210" className="bg-[#25D366] text-white p-2 rounded-xl text-xs font-bold">
+              <a href="https://wa.me/919535967333" className="bg-[#25D366] text-white p-2 rounded-xl text-xs font-bold">
                 <span className="material-icons-outlined">chat</span>
               </a>
               <button
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
             ))}
             <div className="pt-6 border-t border-slate-100">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919535967333"
                 target="_blank"
                 className="block w-full bg-[#25D366] text-white py-4 rounded-2xl font-bold text-center shadow-xl shadow-green-900/10"
               >
