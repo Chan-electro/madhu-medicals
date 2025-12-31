@@ -1,0 +1,8 @@
+{
+  "name": "Madhu Medicals - Modern Pharmacy Portal",
+  "description": "A high-end, fully functional pharmacy website with AI health assistance, glassmorphism UI, and smooth animations.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
